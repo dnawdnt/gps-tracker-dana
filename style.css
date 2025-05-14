@@ -22,18 +22,13 @@ h1 {
 
 .popup-content {
   text-align: left;
+  font-size: 14px;
 }
 
-/* Footer Styling */
 footer {
   background-color: #333;
   color: white;
   padding: 10px;
-  margin-top: 20px;
-}
-
-footer p {
-  margin: 0;
   font-size: 0.9rem;
 }
 
@@ -46,14 +41,14 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* RESPONSIVE */
+/* Responsive */
 @media screen and (max-width: 600px) {
-  #map {
-    height: 300px;
-  }
-
   h1 {
     font-size: 1.2rem;
     padding: 0.75rem;
+  }
+
+  #map {
+    height: 300px;
   }
 }
